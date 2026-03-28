@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    background-color: rgb(1, 58, 3);
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2325290/ss_5b1da3ffc1811b86809fb505ce8b3e362a77cbd3.1920x1080.jpg?t=1737583134");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(1, 58, 3);
+}
+
+.logo {
+    max-width: 60px;
+    padding-left: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2325290/ss_5b1da3ffc1811b86809fb505ce8b3e362a77cbd3.1920x1080.jpg?t=1737583134");
+    background-attachment: fixed;
+    width: 100%;
+    border-bottom: 5px solid rgb(1, 58, 3);
+    color: rgb(202, 202, 202);
+    z-index: 999;
+}
+.listaNavegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-right: 20px;
+}
+
+.listaNavegacao a {
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.2s ease-in-out;
+}
+.listaNavegacao a:hover {
+    text-decoration: underline;
+    color: rgb(1, 58, 3);
+}
+button:hover,
+a:hover {
+    cursor: pointer;
+}
+.home {
+    padding-top: 50px;
+    height: 100vh;
+    background-image: url("img_back.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_inf {
+    background-color: rgb(202, 202, 202);
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(8, 61, 3);
+    font-family: "Bangers", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.inf_texto {
+    font-size: 24px;
+}
+
+.inf_titulo {
+    font-size: 36px;
+}
+
+.inf_botao {
+    text-decoration: none;
+    background-color: rgb(10, 88, 0);
+    color: #9c9a9a;
+
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 28px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.inf_botao:hover {
+    transform: scale(1.01);
+    color: rgb(1, 58, 3)141414;
+    background-color: rgb(14, 105, 10);
+    text-decoration: underline;
+}
+
+.fotos {
+    color: rgb(1, 58, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding: 100px 0;
+    border-top: 5px solid rgb(1, 58, 3);
+    border-bottom: 5px solid rgb(1, 58, 3);
+}
+
+.fotos_titulo {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 4px;
+}
+
+.box_maior {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    gap: 10px;
+}
+.fotos_img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.box_interna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+.box_interna {
+    position: relative;
+    margin: 10px;
+}
+
+.box_interna:hover {
+    transform: scale(1.1);
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.sobre_inf {
+    background-color: rgba(255, 255, 255, 0.533);
+    border: 5px solid rgb(1, 58, 3);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.sobre_titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 4px;
+}
+
+.sobre_texto {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.footer {
+    color: rgb(1, 58, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 5px solid rgb(1, 58, 3);
+    padding-top: 20px;
+}
+.footer_titulo {
+    font-size: 20px;
+}
+
+.footer_texto {
+    color: rgb(175, 175, 175);
+    font-size: 16px;
+}
+
+.footer_detalhe {
+    font-size: 14px;
+    align-self: flex-end;
+    color: rgb(175, 175, 175);
+}
